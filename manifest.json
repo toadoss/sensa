@@ -17,7 +17,7 @@
     {
       "matches": ["*"],
       "css": ["mystyles.css"],
-      "js": ["jquery-1.11.3.min.js", "myscript.js"]
+      "js": ["jquery-1.11.3.min.js", "jquery.highlight-5.js", "myscript.js"]
     }
   ],
 }
