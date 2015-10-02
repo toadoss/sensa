@@ -10,13 +10,29 @@
 	<link rel="stylesheet" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
     <script src="popup.js"></script>
+	<script src="java1.js"></script>
   </head>
   <body>
 	<h1><a href="index.html">Sensa</a></h1>
     <div id="status"></div>
     <p>How sensational do you rate this?</p>
+	<form action="#">
+		<p class="range-field">
+		  <input type="range" id="test5" min="0" max="100" />
+		</p>
+	</form>
 	<p>Do you find this optimistic or pesimistic?</p>
+	<form action="#">
+		<p class="range-field">
+		  <input type="range" id="test5" min="0" max="100" />
+		</p>
+	</form>
 	<p>Is this an opinion piece?</p>
+	<form>
+		<input type="radio" name="option" value="yes" checked> Yes
+		<br>
+		<input type="radio" name="option" value="no"> No
+	</form>
 	<a class="left" href="tellmore.html" style=\"font-size: 2em\">< Tell us more</a>
 	<a class="right" href="rate.html" style=\"font-size: 2em\">Rate ></a>
   </body>
