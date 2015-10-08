@@ -10,31 +10,49 @@
 	<link rel="stylesheet" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
 	<script src="js/java1.js"></script>
+	<script src="jquery.min.js"></script>
+	<script src="rangeslider.min.js"></script>
   </head>
   <body>
-	<h1><a href="index.html">Sensa</a></h1>
-    <div id="status"></div>
-    <p>How sensational is this article?</p>
-	<form action="#">
-		<p class="range-field">
-		  <input type="range" id="test5" min="0" max="100" />
-		</p>
-	</form>
-	<p>Is this article optimistic or pessimistic?</p>
-	<form action="#">
-		<p class="range-field">
-		  <input type="range" id="test5" min="0" max="100" />
-		</p>
-	</form>
-	<p>Is this an opinion piece?</p>
-	<form>
-		<input type="radio" name="option" value="yes"> Yes
-		<br>
-		<input type="radio" name="option" value="no"> No
-	</form>
-	<a class="left" href="tellmore.html" style=\"font-size: 2em\">< Tell us more</a>
-	<a class="right" href="rate.html" style=\"font-size: 2em\">Rate ></a>
-	<button id="highlight">Highlight</button>
+	<div id="pop">
+		<h1><a href="index.html">Sensa</a></h1>
+		<div id="status"></div>
+		<p>How sensational is this article?<span>Help Prompt</span></p>
+			<form action="#">
+				<p class="range-field">
+				  <input type="range" id="test5" min="0" max="100" />
+				</p>
+			</form>
+		<p>Is this article optimistic or pessimistic?<span>Help Prompt</span></p>
+			<form action="#">
+				<p class="range-field">
+				  <input type="range" id="test5" min="0" max="100" />
+				</p>
+			</form>
+		<p>Is this an opinion piece?<span>Help Prompt</span></p>
+			<form>
+				<input type="radio" name="option" value="yes"> Yes
+				<br>
+				<input type="radio" name="option" value="no"> No
+			</form>	
+		<script>
+			// Initialize a new plugin instance for all
+			// e.g. $('input[type="range"]') elements.
+			$('input[type="range"]').rangeslider();
+
+			// Destroy all plugin instances created from the
+			// e.g. $('input[type="range"]') elements.
+			$('input[type="range"]').rangeslider('destroy');
+
+			// Update all rangeslider instances for all
+			// e.g. $('input[type="range"]') elements.
+			// Usefull if you changed some attributes e.g. `min` or `max` etc.
+			$('input[type="range"]').rangeslider('update', true);
+		</script>
+		<a class="left" href="tellmore.html" style=\"font-size: 2em\">< Tell us more</a>
+		<a class="right" href="rate.html" style=\"font-size: 2em\">Rate ></a>
+		<button class="button button-red" id="highlight">Highlight Text!</button>
+	</div>
   </body>
   <script src="popup.js"></script>
 </html>
