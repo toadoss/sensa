@@ -3,26 +3,36 @@
   <head>
     <title>Sensa - Extension</title>
 	<meta charset="utf-8" />
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+	<script src="jquery-1.11.3.min.js"></script>
+	<script>
+	$(document).bind('mobileinit',function(){
+		$.mobile.changePage.defaults.changeHash = false;
+		$.mobile.hashListeningEnabled = false;
+		$.mobile.pushStateEnabled = false;
+	});
+	</script>
+	<script src="jquery.mobile-1.4.5.min.js"></script> -->
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla%7CMontserrat" /> -->
 	<link rel="stylesheet" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
-	<script src="js/java1.js"></script>
-	<script src="jquery.min.js"></script>
-	<script src="rangeslider.min.js"></script>
+	<!--<script src="js/java1.js"></script>-->
   </head>
   <body>
 	<div id="pop">
 		<h1><a href="index.html">Sensa</a></h1>
 		<div id="status"></div>
 		<p>How sensational is this article?<span>Help Prompt</span></p>
-			<form action="#">
-				<p class="range-field">
-				  <input type="range" id="test5" min="0" max="100" />
-				</p>
-			</form>
+			<div data-role="main" class="ui-content">
+				<form method="post" action="demoform.asp">
+					<label for="points">Points:</label>
+					<input type="range" name="points" id="points" value="50" min="0" max="100" data-show-value="true">
+					<input type="submit" data-inline="true" value="Submit">
+				</form>
+			</div>
 		<p>Is this article optimistic or pessimistic?<span>Help Prompt</span></p>
 			<form action="#">
 				<p class="range-field">
@@ -35,20 +45,6 @@
 				<br>
 				<input type="radio" name="option" value="no"> No
 			</form>	
-		<script>
-			// Initialize a new plugin instance for all
-			// e.g. $('input[type="range"]') elements.
-			$('input[type="range"]').rangeslider();
-
-			// Destroy all plugin instances created from the
-			// e.g. $('input[type="range"]') elements.
-			$('input[type="range"]').rangeslider('destroy');
-
-			// Update all rangeslider instances for all
-			// e.g. $('input[type="range"]') elements.
-			// Usefull if you changed some attributes e.g. `min` or `max` etc.
-			$('input[type="range"]').rangeslider('update', true);
-		</script>
 		<a class="left" href="tellmore.html" style=\"font-size: 2em\">< Tell us more</a>
 		<a class="right" href="rate.html" style=\"font-size: 2em\">Rate ></a>
 		<button class="button button-red" id="highlight">Highlight Text!</button>
