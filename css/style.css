@@ -1,7 +1,7 @@
 body {
     font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
     font-size: 100%;
-	padding: 1%;
+	
 }
 h1{
 	text-align: center;
@@ -19,7 +19,6 @@ h1{
 	float: left;
 	padding: 5%;
 }
- color: #f00;
 .right{
 	margin-left: 200px;
 	padding: 5%;
@@ -27,7 +26,7 @@ h1{
 	
 } 
 .right2{
-	margin-left: 210px;
+	margin-left: 190px;
 	padding: 5%;
 	font-size: 20px;
 	margin-bottom: 60%;
@@ -50,10 +49,10 @@ h1{
 }
 
 #pop{
-	padding: 30px;
+	padding: 20px;
 }
 #pop1{
-	padding: 30px;
+	padding: 20px;
 }
 
 #pop { color: #000;  }
@@ -135,12 +134,14 @@ h1{
 
 #score{
 	text-align: center;
-	font-size: 50px;
+	font-size: 42px;
+	font-size: 42px;
+
 }
 
 #score1{
 	text-align: center;
-	font-size: 50px;
+	font-size: 42px;
 }
 #score2{
 	text-align: center;
@@ -173,4 +174,11 @@ overflow: scroll;
 
 .right3:hover{
 	color: #f00;
+}
+#miss{
+	padding: 5%;
+	margin-bottom: 50px;
+}
+#ex1Slider .slider-selection {
+	background: #BABABA;
 }
