@@ -38,6 +38,7 @@ Johann Burkard
 		}
 		
 		function innerHighlight(node, pat, myClass, ignore) {
+			pat = pat;
 			var skip = 0;
 			if (node.nodeType == 3) {
 				var isPatternArray = $.isArray(pat);
@@ -49,10 +50,11 @@ Johann Burkard
 					var currentTerm = (ignore ? replaceDiacritics(pat[ii]) : pat[ii]).toUpperCase();
 					var pos = (ignore ? replaceDiacritics(node.data) : node.data).toUpperCase().indexOf(currentTerm);
 					if (pos >= 0) {
+						pos += 1;
 						var spannode = document.createElement('span');
 						spannode.className = ""+myClass+"";
 						var middlebit = node.splitText(pos);
-						var endbit = middlebit.splitText(currentTerm.length);
+						var endbit = middlebit.splitText(currentTerm.length-2);
 						var middleclone = middlebit.cloneNode(true);
 						spannode.appendChild(middleclone);
 						middlebit.parentNode.replaceChild(spannode, middlebit);
@@ -76,8 +78,8 @@ Johann Burkard
 		ignore : false
 	}
 
-	$.fn.removeHighlight = function() {
-		return this.find("span.highlight").each(function() {
+	$.fn.removeHighlight = function(myClass) {
+		return this.find("span."+myClass+"").each(function() {
 			this.parentNode.firstChild.nodeName;
 			with(this.parentNode) {
 				replaceChild(this.firstChild, this);
