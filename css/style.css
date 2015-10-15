@@ -3,6 +3,9 @@ body {
     font-size: 100%;
 	padding: 1%;
 }
+h1{
+	text-align: center;
+}
 
 #status {
         /* avoid an excessively wide status text */
@@ -16,20 +19,40 @@ body {
 	float: left;
 	padding: 5%;
 }
-
+ color: #f00;
 .right{
-	float: right;
+	margin-left: 200px;
 	padding: 5%;
+	font-size: 20px;
+	
 } 
+.right2{
+	margin-left: 210px;
+	padding: 5%;
+	font-size: 20px;
+	margin-bottom: 60%;
+} 
+.red:hover{
+	 color: #f00;
+}
 
+.right2:hover {
+    color: #f00;
+}
 #pop a:hover {
-    color: #f00
+    
 }
 #pop a{
 	text-decoration: none;
 }
+#pop1 a{
+	text-decoration: none;
+}
 
 #pop{
+	padding: 30px;
+}
+#pop1{
 	padding: 30px;
 }
 
@@ -55,13 +78,13 @@ body {
 	text-align: center;
 	position: absolute;
 	top: 6px;
-	left: 170px;
-	width: 150px;
+	left: 250px;
+	width: 200px;
 	margin: 0px;
 	padding: 10px;
 	color: #335500;
 	font-weight: normal;
-	background: #e5e5e5;
+	background: #ffffff;
 	text-align: left;
 	border: 1px solid #666;
 }
@@ -108,4 +131,46 @@ body {
 	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
 	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}
+
+#score{
+	text-align: center;
+	font-size: 50px;
+}
+
+#score1{
+	text-align: center;
+	font-size: 50px;
+}
+#score2{
+	text-align: center;
+	font-size: 30px;
+}
+.in{
+margin-left: 40px;
+margin-right: 40px;
+width: 320px; 
+height: 100px; 
+border: 1px solid #999999; 
+padding: 5px;
+overflow: scroll;
+}
+.left5{
+	float: left;
+}
+.right5{
+	float: right;
+}
+.range-field{
+	padding: 10%;
+}
+.right3{
+	float: right;
+	font-size: 20px;
+	
+	padding: 5%;
+}
+
+.right3:hover{
+	color: #f00;
 }

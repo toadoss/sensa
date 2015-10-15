@@ -3,17 +3,6 @@
   <head>
     <title>Sensa - Extension</title>
 	<meta charset="utf-8" />
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
-	<script src="jquery-1.11.3.min.js"></script>
-	<script>
-	$(document).bind('mobileinit',function(){
-		$.mobile.changePage.defaults.changeHash = false;
-		$.mobile.hashListeningEnabled = false;
-		$.mobile.pushStateEnabled = false;
-	});
-	</script>
-	<script src="jquery.mobile-1.4.5.min.js"></script> -->
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -22,34 +11,21 @@
 	<!--<script src="js/java1.js"></script>-->
   </head>
   <body>
-	<div id="pop">
-		<h1><a href="index.html">Sensa</a></h1>
+	<div id="pop1">
+		<h1><a class="red" href="index.html">Sensa</a></h1>
 		<div id="status"></div>
-		<p>How sensational is this article?<span>Help Prompt</span></p>
-			<div data-role="main" class="ui-content">
-				<form method="post" action="demoform.asp">
-					<label for="points">Points:</label>
-					<input type="range" name="points" id="points" value="50" min="0" max="100" data-show-value="true">
-					<input type="submit" data-inline="true" value="Submit">
-				</form>
+		<a href="opinion.html" class="button">Rate this article</a>
+		<button class="button" id="highlight">Highlight Text!</button>
+		<div class="toggle_container">
+			<div class="block">
+				<p>People have rated this:</p>
+				<p id="score">7.8/10</p>
 			</div>
-		<p>Is this article optimistic or pessimistic?<span>Help Prompt</span></p>
-			<form action="#">
-				<p class="range-field">
-				  <input type="range" id="test5" min="0" max="100" />
-				</p>
-			</form>
-		<p>Is this an opinion piece?<span>Help Prompt</span></p>
-			<form>
-				<input type="radio" name="option" value="yes"> Yes
-				<br>
-				<input type="radio" name="option" value="no"> No
-			</form>	
-		<a class="left" href="tellmore.html" style=\"font-size: 2em\">< Tell us more</a>
-		<a class="right" href="rate.html" style=\"font-size: 2em\">Rate ></a>
-		<button class="button button-red" id="highlight">Highlight Text!</button>
+		</div>	
 	</div>
   </body>
   <script src="popup.js"></script>
+  <script src="jquery-2.1.4.js"></script>
+  <script src="drop.js"></script>
 </html>
 
