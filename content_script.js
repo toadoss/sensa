@@ -7,14 +7,28 @@ if ($(".sensaHighlight1").length > 0 ||
 	$(".sensaHighlight2").length > 0 || 
 	$(".sensaHighlight3").length > 0 || 
 	$(".sensaHighlight4").length > 0 || 
-	$(".sensaHighlight5").length > 0 || 
-	$(".sensaHighlight6").length > 0) { 
+	$(".sensaHighlight5").length > 0 ||  
+	$(".sensaHighlight6").length > 0 ||  
+	$(".sensaHighlight7").length > 0 ||  
+	$(".sensaHighlight8").length > 0 ||  
+	$(".sensaHighlight9").length > 0 ||  
+	$(".sensaHighlight10").length > 0 ||  
+	$(".sensaHighlight11").length > 0 ||  
+	$(".sensaHighlight12").length > 0 ||  
+	$(".sensaHighlight13").length > 0) { 
 	$("p").removeHighlight('sensaHighlight1'); 
 	$("p").removeHighlight('sensaHighlight2');
 	$("p").removeHighlight('sensaHighlight3');
 	$("p").removeHighlight('sensaHighlight4');
 	$("p").removeHighlight('sensaHighlight5');
 	$("p").removeHighlight('sensaHighlight6');
+	$("p").removeHighlight('sensaHighlight7');
+	$("p").removeHighlight('sensaHighlight8');
+	$("p").removeHighlight('sensaHighlight9');
+	$("p").removeHighlight('sensaHighlight10');
+	$("p").removeHighlight('sensaHighlight11');
+	$("p").removeHighlight('sensaHighlight12');
+	$("p").removeHighlight('sensaHighlight13');
 	}
 else {
 
@@ -24,14 +38,28 @@ else {
 	$("p").highlight(' beloved ', 'sensaHighlight4');
 	$("p").highlight(' killing ', 'sensaHighlight5');
 	$("p").highlight(' scorned ', 'sensaHighlight6');
+	$("p").highlight(' Best ', 'sensaHighlight7');
+	$("p").highlight(' loving ', 'sensaHighlight8');
+	$("p").highlight(' successfully ', 'sensaHighlight9');
+	$("p").highlight(' happy ', 'sensaHighlight10');
+	$("p").highlight(' threatening ', 'sensaHighlight11');
+	$("p").highlight(' grateful ', 'sensaHighlight12');
+	$("p").highlight(' awesome ', 'sensaHighlight13');
 	$(".sensaHighlight1").css({ backgroundColor: "#Dab4b4" });
 	$(".sensaHighlight2").css({ backgroundColor: "#Dab4b4" });
 	$(".sensaHighlight3").css({ backgroundColor: "#F6DCDC" });
 	$(".sensaHighlight4").css({ backgroundColor: "#91A9DF" });
 	$(".sensaHighlight5").css({ backgroundColor: "#DF9191" });
 	$(".sensaHighlight6").css({ backgroundColor: "#DF9191" });
+	$(".sensaHighlight7").css({ backgroundColor: "#91A9DF" });
+	$(".sensaHighlight8").css({ backgroundColor: "#91A9DF" });
+	$(".sensaHighlight9").css({ backgroundColor: "#DBE1F6" });
+	$(".sensaHighlight10").css({ backgroundColor: "#B4BFDA" });
+	$(".sensaHighlight11").css({ backgroundColor: "#Dab4b4" });
+	$(".sensaHighlight12").css({ backgroundColor: "#B4C1DA" });
+	$(".sensaHighlight13").css({ backgroundColor: "#91A9DF" });
 }
-	
+
 // $('#span').removeHighlight();	
 	
 // Will highlight each keyword "the" in the context ".test"
