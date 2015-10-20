@@ -191,9 +191,9 @@ overflow: scroll;
 	margin-left: 150px;
 	margin-top: 5px;
 	text-align: center; 
-	background-color: red;
+	background-color: white;
 } 
-.slant { 
+#slant { 
 	text-align: center; 
 	font-weight: bold; 
 	text-decoration: none; 
