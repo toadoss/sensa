@@ -15,7 +15,19 @@ if ($(".emoHighlight1").length > 0 ||
 	$(".emoHighlight10").length > 0 ||  
 	$(".emoHighlight11").length > 0 ||  
 	$(".emoHighlight12").length > 0 ||  
-	$(".emoHighlight13").length > 0) { 
+	$(".emoHighlight13").length > 0 ||  
+	$(".emoHighlight14").length > 0 ||  
+	$(".emoHighlight15").length > 0 ||  
+	$(".emoHighlight16").length > 0 ||  
+	$(".emoHighlight17").length > 0 ||  
+	$(".emoHighlight18").length > 0 ||  
+	$(".emoHighlight19").length > 0 ||  
+	$(".emoHighlight20").length > 0 ||  
+	$(".emoHighlight21").length > 0 ||  
+	$(".emoHighlight22").length > 0 ||  
+	$(".emoHighlight23").length > 0 ||  
+	$(".emoHighlight24").length > 0 ||  
+	$(".emoHighlight25").length > 0) { 
 	$("p").removeHighlight('emoHighlight1'); 
 	$("p").removeHighlight('emoHighlight2');
 	$("p").removeHighlight('emoHighlight3');
@@ -29,6 +41,18 @@ if ($(".emoHighlight1").length > 0 ||
 	$("p").removeHighlight('emoHighlight11');
 	$("p").removeHighlight('emoHighlight12');
 	$("p").removeHighlight('emoHighlight13');
+	$("p").removeHighlight('emoHighlight14');
+	$("p").removeHighlight('emoHighlight15');
+	$("p").removeHighlight('emoHighlight16');
+	$("p").removeHighlight('emoHighlight17');
+	$("p").removeHighlight('emoHighlight18');
+	$("p").removeHighlight('emoHighlight19');
+	$("p").removeHighlight('emoHighlight20');
+	$("p").removeHighlight('emoHighlight21');
+	$("p").removeHighlight('emoHighlight22');
+	$("p").removeHighlight('emoHighlight23');
+	$("p").removeHighlight('emoHighlight24');
+	$("p").removeHighlight('emoHighlight25');
 	}
 else if ($(".sensaHighlight1").length > 0 ||
 		 $(".sensaHighlight2").length > 0 ||
@@ -51,7 +75,26 @@ else if ($(".sensaHighlight1").length > 0 ||
 		 $(".sensaHighlight19").length > 0 ||
 		 $(".sensaHighlight20").length > 0 ||
 		 $(".sensaHighlight21").length > 0 ||
-		 $(".sensaHighlight22").length > 0) {
+		 $(".sensaHighlight22").length > 0 ||
+		 $(".sensaHighlight23").length > 0 ||
+		 $(".sensaHighlight24").length > 0 ||
+		 $(".sensaHighlight25").length > 0 ||
+		 $(".sensaHighlight26").length > 0 ||
+		 $(".sensaHighlight27").length > 0 ||
+		 $(".sensaHighlight28").length > 0 ||
+		 $(".sensaHighlight29").length > 0 ||
+		 $(".sensaHighlight30").length > 0 ||
+		 $(".sensaHighlight31").length > 0 ||
+		 $(".sensaHighlight32").length > 0 ||
+		 $(".sensaHighlight33").length > 0 ||
+		 $(".sensaHighlight34").length > 0 ||
+		 $(".sensaHighlight35").length > 0 ||
+		 $(".sensaHighlight36").length > 0 ||
+		 $(".sensaHighlight37").length > 0 ||
+		 $(".sensaHighlight38").length > 0 ||
+		 $(".sensaHighlight39").length > 0 ||
+		 $(".sensaHighlight40").length > 0 ||
+		 $(".sensaHighlight41").length > 0) {
 			$("p").removeHighlight('sensaHighlight1');
 			$("p").removeHighlight('sensaHighlight2');
 			$("p").removeHighlight('sensaHighlight3');
@@ -74,6 +117,25 @@ else if ($(".sensaHighlight1").length > 0 ||
 			$("p").removeHighlight('sensaHighlight20');
 			$("p").removeHighlight('sensaHighlight21');
 			$("p").removeHighlight('sensaHighlight22');
+			$("p").removeHighlight('sensaHighlight23');
+			$("p").removeHighlight('sensaHighlight24');
+			$("p").removeHighlight('sensaHighlight25');
+			$("p").removeHighlight('sensaHighlight26');
+			$("p").removeHighlight('sensaHighlight27');
+			$("p").removeHighlight('sensaHighlight28');
+			$("p").removeHighlight('sensaHighlight29');
+			$("p").removeHighlight('sensaHighlight30');
+			$("p").removeHighlight('sensaHighlight31');
+			$("p").removeHighlight('sensaHighlight32');
+			$("p").removeHighlight('sensaHighlight33');
+			$("p").removeHighlight('sensaHighlight34');
+			$("p").removeHighlight('sensaHighlight35');
+			$("p").removeHighlight('sensaHighlight36');
+			$("p").removeHighlight('sensaHighlight37');
+			$("p").removeHighlight('sensaHighlight38');
+			$("p").removeHighlight('sensaHighlight39');
+			$("p").removeHighlight('sensaHighlight40');
+			$("p").removeHighlight('sensaHighlight41');
 			
 			$("p").highlight(' outrage ', 'emoHighlight1');
 			$("p").highlight(' death ', 'emoHighlight2');
@@ -88,6 +150,18 @@ else if ($(".sensaHighlight1").length > 0 ||
 			$("p").highlight(' threatening ', 'emoHighlight11');
 			$("p").highlight(' grateful ', 'emoHighlight12');
 			$("p").highlight(' awesome ', 'emoHighlight13');
+			$("p").highlight(' violence ', 'emoHighlight14');
+			$("p").highlight(' devasating ', 'emoHighlight15');
+			$("p").highlight(' wrong ', 'emoHighlight16');
+			$("p").highlight(' inconceivable ', 'emoHighlight17');
+			$("p").highlight(' disappointing ', 'emoHighlight18');
+			$("p").highlight(' heroes ', 'emoHighlight19');
+			$("p").highlight(' shit ', 'emoHighlight20');
+			$("p").highlight(' molest ', 'emoHighlight21');
+			$("p").highlight(' rightly ', 'emoHighlight22');
+			$("p").highlight(' wrongly ', 'emoHighlight23');
+			$("p").highlight(' shaming ', 'emoHighlight24');
+			$("p").highlight(' positive ', 'emoHighlight25');
 			$(".emoHighlight1").css({ backgroundColor: "#Dab4b4" });
 			$(".emoHighlight2").css({ backgroundColor: "#Dab4b4" });
 			$(".emoHighlight3").css({ backgroundColor: "#F6DCDC" });
@@ -101,10 +175,21 @@ else if ($(".sensaHighlight1").length > 0 ||
 			$(".emoHighlight11").css({ backgroundColor: "#Dab4b4" });
 			$(".emoHighlight12").css({ backgroundColor: "#B4C1DA" });
 			$(".emoHighlight13").css({ backgroundColor: "#91A9DF" });
+			$(".emoHighlight14").css({ backgroundColor: "#Dab4b4" });
+			$(".emoHighlight15").css({ backgroundColor: "#DF9191" });
+			$(".emoHighlight16").css({ backgroundColor: "#F6DCDC" });
+			$(".emoHighlight17").css({ backgroundColor: "#F6DCDC" });
+			$(".emoHighlight18").css({ backgroundColor: "#F6DCDC" });
+			$(".emoHighlight19").css({ backgroundColor: "#DBE1F6" });
+			$(".emoHighlight20").css({ backgroundColor: "#DF9191" });
+			$(".emoHighlight21").css({ backgroundColor: "#DF9191" });
+			$(".emoHighlight22").css({ backgroundColor: "#DBE1F6" });
+			$(".emoHighlight23").css({ backgroundColor: "#F6DCDC" });
+			$(".emoHighlight24").css({ backgroundColor: "#F6DCDC" });
+			$(".emoHighlight25").css({ backgroundColor: "#DBE1F6" });
 }
 		 
 else {
-
 	$("p").highlight(' outrage ', 'emoHighlight1');
 	$("p").highlight(' death ', 'emoHighlight2');
 	$("p").highlight(' regret ', 'emoHighlight3');
@@ -118,6 +203,18 @@ else {
 	$("p").highlight(' threatening ', 'emoHighlight11');
 	$("p").highlight(' grateful ', 'emoHighlight12');
 	$("p").highlight(' awesome ', 'emoHighlight13');
+	$("p").highlight(' violence ', 'emoHighlight14');
+	$("p").highlight(' devasating ', 'emoHighlight15');
+	$("p").highlight(' wrong ', 'emoHighlight16');
+	$("p").highlight(' inconceivable ', 'emoHighlight17');
+	$("p").highlight(' disappointing ', 'emoHighlight18');
+	$("p").highlight(' heroes ', 'emoHighlight19');
+	$("p").highlight(' shit ', 'emoHighlight20');
+	$("p").highlight(' molest ', 'emoHighlight21');
+	$("p").highlight(' rightly ', 'emoHighlight22');
+	$("p").highlight(' wrongly ', 'emoHighlight23');
+	$("p").highlight(' shaming ', 'emoHighlight24');
+	$("p").highlight(' positive ', 'emoHighlight25');
 	$(".emoHighlight1").css({ backgroundColor: "#Dab4b4" });
 	$(".emoHighlight2").css({ backgroundColor: "#Dab4b4" });
 	$(".emoHighlight3").css({ backgroundColor: "#F6DCDC" });
@@ -131,6 +228,18 @@ else {
 	$(".emoHighlight11").css({ backgroundColor: "#Dab4b4" });
 	$(".emoHighlight12").css({ backgroundColor: "#B4C1DA" });
 	$(".emoHighlight13").css({ backgroundColor: "#91A9DF" });
+	$(".emoHighlight14").css({ backgroundColor: "#Dab4b4" });
+	$(".emoHighlight15").css({ backgroundColor: "#DF9191" });
+	$(".emoHighlight16").css({ backgroundColor: "#F6DCDC" });
+	$(".emoHighlight17").css({ backgroundColor: "#F6DCDC" });
+	$(".emoHighlight18").css({ backgroundColor: "#F6DCDC" });
+	$(".emoHighlight19").css({ backgroundColor: "#DBE1F6" });
+	$(".emoHighlight20").css({ backgroundColor: "#DF9191" });
+	$(".emoHighlight21").css({ backgroundColor: "#DF9191" });
+	$(".emoHighlight22").css({ backgroundColor: "#DBE1F6" });
+	$(".emoHighlight23").css({ backgroundColor: "#F6DCDC" });
+	$(".emoHighlight24").css({ backgroundColor: "#F6DCDC" });
+	$(".emoHighlight25").css({ backgroundColor: "#DBE1F6" });
 }
 
 // $('#span').removeHighlight();	

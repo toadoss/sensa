@@ -15,7 +15,19 @@ if ($(".emoHighlight1").length > 0 ||
 	$(".emoHighlight10").length > 0 ||  
 	$(".emoHighlight11").length > 0 ||  
 	$(".emoHighlight12").length > 0 ||  
-	$(".emoHighlight13").length > 0) { 
+	$(".emoHighlight13").length > 0 ||  
+	$(".emoHighlight14").length > 0 ||  
+	$(".emoHighlight15").length > 0 ||  
+	$(".emoHighlight16").length > 0 ||  
+	$(".emoHighlight17").length > 0 ||  
+	$(".emoHighlight18").length > 0 ||  
+	$(".emoHighlight19").length > 0 ||  
+	$(".emoHighlight20").length > 0 ||  
+	$(".emoHighlight21").length > 0 ||  
+	$(".emoHighlight22").length > 0 ||  
+	$(".emoHighlight23").length > 0 ||  
+	$(".emoHighlight24").length > 0 ||  
+	$(".emoHighlight25").length > 0) { 
 	$("p").removeHighlight('emoHighlight1'); 
 	$("p").removeHighlight('emoHighlight2');
 	$("p").removeHighlight('emoHighlight3');
@@ -29,6 +41,18 @@ if ($(".emoHighlight1").length > 0 ||
 	$("p").removeHighlight('emoHighlight11');
 	$("p").removeHighlight('emoHighlight12');
 	$("p").removeHighlight('emoHighlight13');
+	$("p").removeHighlight('emoHighlight14');
+	$("p").removeHighlight('emoHighlight15');
+	$("p").removeHighlight('emoHighlight16');
+	$("p").removeHighlight('emoHighlight17');
+	$("p").removeHighlight('emoHighlight18');
+	$("p").removeHighlight('emoHighlight19');
+	$("p").removeHighlight('emoHighlight20');
+	$("p").removeHighlight('emoHighlight21');
+	$("p").removeHighlight('emoHighlight22');
+	$("p").removeHighlight('emoHighlight23');
+	$("p").removeHighlight('emoHighlight24');
+	$("p").removeHighlight('emoHighlight25');
 	
 	$("p").highlight(' scorned ', 'sensaHighlight1');
 	$("p").highlight(' killing ', 'sensaHighlight2');
@@ -52,6 +76,25 @@ if ($(".emoHighlight1").length > 0 ||
 	$("p").highlight(' suffering ', 'sensaHighlight20');
 	$("p").highlight(' injury ', 'sensaHighlight21');
 	$("p").highlight(' grateful ', 'sensaHighlight22');
+	$("p").highlight(' violence ', 'sensaHighlight23');
+	$("p").highlight(' devasating ', 'sensaHighlight24');
+	$("p").highlight(' wrong ', 'sensaHighlight25');
+	$("p").highlight(' utterly ', 'sensaHighlight26');
+	$("p").highlight(' inconceivable ', 'sensaHighlight27');
+	$("p").highlight(' pretty ', 'sensaHighlight28');
+	$("p").highlight(' disappointing ', 'sensaHighlight29');
+	$("p").highlight(' actually ', 'sensaHighlight30');
+	$("p").highlight(' heroes ', 'sensaHighlight31');
+	$("p").highlight(' magic ', 'sensaHighlight32');
+	$("p").highlight(' shit ', 'sensaHighlight33');
+	$("p").highlight(' beating ', 'sensaHighlight34');
+	$("p").highlight(' rightly ', 'sensaHighlight35');
+	$("p").highlight(' wrongly ', 'sensaHighlight36');
+	$("p").highlight(' shaming ', 'sensaHighlight37');
+	$("p").highlight(' obviously ', 'sensaHighlight38');
+	$("p").highlight(' just ', 'sensaHighlight39');
+	$("p").highlight(' very ', 'sensaHighlight40');
+	$("p").highlight(' positive ', 'sensaHighlight41');
 	$(".sensaHighlight1").css({ backgroundColor: "#B992DF" });
 	$(".sensaHighlight2").css({ backgroundColor: "#BEA1DB" });
 	$(".sensaHighlight3").css({ backgroundColor: "#B992DF" });
@@ -74,6 +117,25 @@ if ($(".emoHighlight1").length > 0 ||
 	$(".sensaHighlight20").css({ backgroundColor: "#C7B6DA" });
 	$(".sensaHighlight21").css({ backgroundColor: "#D0C9DB" });
 	$(".sensaHighlight22").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight23").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight24").css({ backgroundColor: "#B992DF" });
+	$(".sensaHighlight25").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight26").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight27").css({ backgroundColor: "#B992DF" });
+	$(".sensaHighlight28").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight29").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight30").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight31").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight32").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight33").css({ backgroundColor: "#B992DF" });
+	$(".sensaHighlight34").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight35").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight36").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight37").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight38").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight39").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight40").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight41").css({ backgroundColor: "#D0C9DB" });
 	}
 else if ($(".sensaHighlight1").length > 0 ||
 		 $(".sensaHighlight2").length > 0 ||
@@ -96,7 +158,26 @@ else if ($(".sensaHighlight1").length > 0 ||
 		 $(".sensaHighlight19").length > 0 ||
 		 $(".sensaHighlight20").length > 0 ||
 		 $(".sensaHighlight21").length > 0 ||
-		 $(".sensaHighlight22").length > 0) {
+		 $(".sensaHighlight22").length > 0 ||
+		 $(".sensaHighlight23").length > 0 ||
+		 $(".sensaHighlight24").length > 0 ||
+		 $(".sensaHighlight25").length > 0 ||
+		 $(".sensaHighlight26").length > 0 ||
+		 $(".sensaHighlight27").length > 0 ||
+		 $(".sensaHighlight28").length > 0 ||
+		 $(".sensaHighlight29").length > 0 ||
+		 $(".sensaHighlight30").length > 0 ||
+		 $(".sensaHighlight31").length > 0 ||
+		 $(".sensaHighlight32").length > 0 ||
+		 $(".sensaHighlight33").length > 0 ||
+		 $(".sensaHighlight34").length > 0 ||
+		 $(".sensaHighlight35").length > 0 ||
+		 $(".sensaHighlight36").length > 0 ||
+		 $(".sensaHighlight37").length > 0 ||
+		 $(".sensaHighlight38").length > 0 ||
+		 $(".sensaHighlight39").length > 0 ||
+		 $(".sensaHighlight40").length > 0 ||
+		 $(".sensaHighlight41").length > 0) {
 			$("p").removeHighlight('sensaHighlight1');
 			$("p").removeHighlight('sensaHighlight2');
 			$("p").removeHighlight('sensaHighlight3');
@@ -119,6 +200,25 @@ else if ($(".sensaHighlight1").length > 0 ||
 			$("p").removeHighlight('sensaHighlight20');
 			$("p").removeHighlight('sensaHighlight21');
 			$("p").removeHighlight('sensaHighlight22');
+			$("p").removeHighlight('sensaHighlight23');
+			$("p").removeHighlight('sensaHighlight24');
+			$("p").removeHighlight('sensaHighlight25');
+			$("p").removeHighlight('sensaHighlight26');
+			$("p").removeHighlight('sensaHighlight27');
+			$("p").removeHighlight('sensaHighlight28');
+			$("p").removeHighlight('sensaHighlight29');
+			$("p").removeHighlight('sensaHighlight30');
+			$("p").removeHighlight('sensaHighlight31');
+			$("p").removeHighlight('sensaHighlight32');
+			$("p").removeHighlight('sensaHighlight33');
+			$("p").removeHighlight('sensaHighlight34');
+			$("p").removeHighlight('sensaHighlight35');
+			$("p").removeHighlight('sensaHighlight36');
+			$("p").removeHighlight('sensaHighlight37');
+			$("p").removeHighlight('sensaHighlight38');
+			$("p").removeHighlight('sensaHighlight39');
+			$("p").removeHighlight('sensaHighlight40');
+			$("p").removeHighlight('sensaHighlight41');
 		 }
 else {
 	$("p").highlight(' scorned ', 'sensaHighlight1');
@@ -143,6 +243,25 @@ else {
 	$("p").highlight(' suffering ', 'sensaHighlight20');
 	$("p").highlight(' injury ', 'sensaHighlight21');
 	$("p").highlight(' grateful ', 'sensaHighlight22');
+	$("p").highlight(' violence ', 'sensaHighlight23');
+	$("p").highlight(' devasating ', 'sensaHighlight24');
+	$("p").highlight(' wrong ', 'sensaHighlight25');
+	$("p").highlight(' utterly ', 'sensaHighlight26');
+	$("p").highlight(' inconceivable ', 'sensaHighlight27');
+	$("p").highlight(' pretty ', 'sensaHighlight28');
+	$("p").highlight(' disappointing ', 'sensaHighlight29');
+	$("p").highlight(' actually ', 'sensaHighlight30');
+	$("p").highlight(' heroes ', 'sensaHighlight31');
+	$("p").highlight(' magic ', 'sensaHighlight32');
+	$("p").highlight(' shit ', 'sensaHighlight33');
+	$("p").highlight(' beating ', 'sensaHighlight34');
+	$("p").highlight(' rightly ', 'sensaHighlight35');
+	$("p").highlight(' wrongly ', 'sensaHighlight36');
+	$("p").highlight(' shaming ', 'sensaHighlight37');
+	$("p").highlight(' obviously ', 'sensaHighlight38');
+	$("p").highlight(' just ', 'sensaHighlight39');
+	$("p").highlight(' very ', 'sensaHighlight40');
+	$("p").highlight(' positive ', 'sensaHighlight41');
 	$(".sensaHighlight1").css({ backgroundColor: "#B992DF" });
 	$(".sensaHighlight2").css({ backgroundColor: "#BEA1DB" });
 	$(".sensaHighlight3").css({ backgroundColor: "#B992DF" });
@@ -165,6 +284,25 @@ else {
 	$(".sensaHighlight20").css({ backgroundColor: "#C7B6DA" });
 	$(".sensaHighlight21").css({ backgroundColor: "#D0C9DB" });
 	$(".sensaHighlight22").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight23").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight24").css({ backgroundColor: "#B992DF" });
+	$(".sensaHighlight25").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight26").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight27").css({ backgroundColor: "#B992DF" });
+	$(".sensaHighlight28").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight29").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight30").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight31").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight32").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight33").css({ backgroundColor: "#B992DF" });
+	$(".sensaHighlight34").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight35").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight36").css({ backgroundColor: "#D0C9DB" });
+	$(".sensaHighlight37").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight38").css({ backgroundColor: "#BEA1DB" });
+	$(".sensaHighlight39").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight40").css({ backgroundColor: "#C7B6DA" });
+	$(".sensaHighlight41").css({ backgroundColor: "#D0C9DB" });
 }
 
 // $('#span').removeHighlight();	
