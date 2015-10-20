@@ -28,7 +28,8 @@ getCurrentTabUrl(function(url) {
 		var scoreElement = document.getElementById("score");
 		scoreElement.innerHTML = "8.7";
 		var textEle = document.getElementById("slant");
-		textEle.innerHTML = "No Slant";
+		textEle.innerHTML = "No Slant"; 
+		
 	}
 	else if (url == "http://www.faithit.com/kicked-off-plane-back-to-the-gate/") {
 		var emotiveCircle = document.querySelector(".emotive");
@@ -44,6 +45,8 @@ getCurrentTabUrl(function(url) {
 		var scoreElement = document.getElementById("score");
 		scoreElement.innerHTML = "7.5";
 		var textEle = document.getElementById("slant");
-		textEle.innerHTML = "Negative Slant";
+		textEle.innerHTML = "Negative Slant"; 
+		var opEle = document.getElementById("opinion");
+		opEle.innerHTML = "Opinion Piece";
 	}
 });
