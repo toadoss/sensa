@@ -182,4 +182,23 @@ overflow: scroll;
 }
 #ex1Slider .slider-selection {
 	background: #BABABA;
+} 
+.emotive { 
+	position: relative;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	margin-left: 150px;
+	margin-top: 5px;
+	text-align: center; 
+	background-color: red;
+} 
+.slant { 
+	text-align: center; 
+	font-weight: bold; 
+	text-decoration: none; 
+	
+} 
+
+
 }
