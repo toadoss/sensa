@@ -1,7 +1,10 @@
 body {
     font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
     font-size: 100%;
-	padding: 1%;
+	
+}
+h1{
+	text-align: center;
 }
 
 #status {
@@ -14,8 +17,169 @@ body {
 
 .left{
 	float: left;
+	padding: 5%;
+}
+.right{
+	margin-left: 200px;
+	padding: 5%;
+	font-size: 20px;
+	
+} 
+.right2{
+	margin-left: 190px;
+	padding: 5%;
+	font-size: 20px;
+	margin-bottom: 60%;
+} 
+.red:hover{
+	 color: #f00;
 }
 
-.right{
+.right2:hover {
+    color: #f00;
+}
+#pop a:hover {
+    
+}
+#pop a{
+	text-decoration: none;
+}
+#pop1 a{
+	text-decoration: none;
+}
+
+#pop{
+	padding: 20px;
+}
+#pop1{
+	padding: 20px;
+}
+
+#pop { color: #000;  }
+
+
+
+#pop p span {
+	display: none;
+}
+
+#pop p:hover { 
+	color: #e9e9e2; 
+	cursor: pointer; 
+}
+#pop p:hover	{
+	color: #f00; 
+	text-indent: 0; /* added the default value */
+}
+
+#pop p:hover span {
+	display: block;
+	text-align: center;
+	position: absolute;
+	top: 6px;
+	left: 250px;
+	width: 200px;
+	margin: 0px;
+	padding: 10px;
+	color: #335500;
+	font-weight: normal;
+	background: #ffffff;
+	text-align: left;
+	border: 1px solid #666;
+}
+.button-red {
+	text-shadow: 0 1px #72100d;
+	background-color: #cd1d18;
+	border-color: #9f1713 #891310 #891310;
+}
+
+.button-red:hover { background-color: #c01511; }
+
+.button-red:active {
+	text-shadow: 0 -1px #72100d;
+	background: #b61a15;
+	border-color: #5b0d0b #72100d #9f1713;
+	background-image: -webkit-linear-gradient(top, #921511, #e4201b);
+	background-image: -moz-linear-gradient(top, #921511, #e4201b);
+	background-image: -o-linear-gradient(top, #921511, #e4201b);
+	background-image: linear-gradient(to bottom, #921511, #e4201b);
+}
+.button {
+	display: inline-block;
+	bottom:5%;
+	top:60%;
+	vertical-align: top;
+	position: relative;
+	overflow: hidden;
+	width: 400px;
+	line-height: 46px;
+	padding: 0 24px;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px #154c86;
+	background-color: #247edd;
+	background-clip: padding-box;
+	border: 1px solid;
+	border-color: #1c65b2 #18589c #18589c;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+	background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.12) 51%, rgba(0, 0, 0, 0.04));
+}
+
+#score{
+	text-align: center;
+	font-size: 42px;
+	font-size: 42px;
+
+}
+
+#score1{
+	text-align: center;
+	font-size: 42px;
+}
+#score2{
+	text-align: center;
+	font-size: 30px;
+}
+.in{
+margin-left: 40px;
+margin-right: 40px;
+width: 320px; 
+height: 100px; 
+border: 1px solid #999999; 
+padding: 5px;
+overflow: scroll;
+}
+.left5{
+	margin-left: 5px;
+}
+.right5{
+	margin-left: 310px;
+	
+}
+.range-field{
+	padding: 10%;
+}
+.right3{
 	float: right;
+	font-size: 20px;
+	
+	padding: 5%;
+}
+
+.right3:hover{
+	color: #f00;
+}
+#miss{
+	padding: 5%;
+	margin-bottom: 50px;
+}
+#ex1Slider .slider-selection {
+	background: #BABABA;
 }

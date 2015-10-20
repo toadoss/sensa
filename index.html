@@ -6,36 +6,26 @@
 	<script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/lightbox.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<!--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Karla%7CMontserrat" /> -->
 	<link rel="stylesheet" href="css/screen.css" />
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css" />
-    <script src="popup.js"></script>
-	<script src="js/java1.js"></script>
+	<!--<script src="js/java1.js"></script>-->
   </head>
   <body>
-	<h1><a href="index.html">Sensa</a></h1>
-    <div id="status"></div>
-    <p>How sensational do you rate this?</p>
-	<form action="#">
-		<p class="range-field">
-		  <input type="range" id="test5" min="0" max="100" />
-		</p>
-	</form>
-	<p>Do you find this optimistic or pesimistic?</p>
-	<form action="#">
-		<p class="range-field">
-		  <input type="range" id="test5" min="0" max="100" />
-		</p>
-	</form>
-	<p>Is this an opinion piece?</p>
-	<form>
-		<input type="radio" name="option" value="yes" checked> Yes
-		<br>
-		<input type="radio" name="option" value="no"> No
-	</form>
-	<a class="left" href="tellmore.html" style=\"font-size: 2em\">< Tell us more</a>
-	<a class="right" href="rate.html" style=\"font-size: 2em\">Rate ></a>
-	<button id="highlight">Highlight</button>
+	<div id="pop1">
+		<h1><a class="red" href="index.html">Sensa</a></h1>
+		<div id="status"></div>
+		<a href="opinion.html" class="button">Rate this article</a>
+		<button class="button" id="highlight">Highlight Text!</button>
+		<div class="toggle_container">
+			<div class="block">
+				<p>People have rated this:</p>
+				<p id="score">7.8/10</p>
+			</div>
+		</div>	
+	</div>
   </body>
+  <script src="popup.js"></script>
+  <script src="jquery-2.1.4.js"></script>
+  <script src="drop.js"></script>
 </html>
 
