@@ -24,13 +24,19 @@ getCurrentTabUrl(function(url) {
 	if (url == 'http://www.huffingtonpost.com.au/entry/dentist-who-killed-cecil-the-lion-apologizes-in-note-to-patients_55b90e2be4b0074ba5a72148?section=australia&adsSiteOverride=au') {
 		var emotiveCircle = document.querySelector(".emotive");
 		emotiveCircle.style.backgroundColor = "#C7B6DA";
+		var element = document.getElementById("score");
+		element.innerHTML = "8.7";
 	}
 	else if (url == 'http://www.faithit.com/kicked-off-plane-back-to-the-gate/') {
 		var emotiveCircle = document.querySelector(".emotive");
 		emotiveCircle.style.backgroundColor = "#B4BFDA";
+		var element = document.getElementById("score");
+		element.innerHTML = "7.3"
 	}
 	else if (url == 'http://www.mamamia.com.au/news/sportsmen-and-violence-against-women/') {
 		var emotiveCircle = document.querySelector(".emotive");
 		emotiveCircle.style.backgroundColor = "#F70C0C";
+		var element = document.getElementById("score");
+		element.innerHTML = "7.5"
 	}
 });
