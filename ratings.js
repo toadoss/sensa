@@ -39,14 +39,21 @@ getCurrentTabUrl(function(url) {
 		var textEle = document.getElementById("slant");
 		textEle.innerHTML = "Positive Slant";
 	}
-	else {
+	else if (url == "http://www.mamamia.com.au/news/sportsmen-and-violence-against-women/"){
 		var emotiveCircle = document.querySelector(".emotive");
-		emotiveCircle.style.backgroundColor = "#F70C0C";
+		emotiveCircle.style.backgroundColor = "#Ec8888";
 		var scoreElement = document.getElementById("score");
 		scoreElement.innerHTML = "7.5";
 		var textEle = document.getElementById("slant");
 		textEle.innerHTML = "Negative Slant"; 
 		var opEle = document.getElementById("opinion");
 		opEle.innerHTML = "Opinion Piece";
+	} else {
+		var emotiveCircle = document.querySelector(".emotive");
+		emotiveCircle.style.backgroundColor = "#D0D3D4";
+		var scoreElement = document.getElementById("score");
+		scoreElement.innerHTML = "5.0";
+		var textEle = document.getElementById("slant");
+		textEle.innerHTML = "No Slant"; 
 	}
 });

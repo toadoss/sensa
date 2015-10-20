@@ -150,11 +150,8 @@ h1{
 .in{
 margin-left: 40px;
 margin-right: 40px;
-width: 320px; 
-height: 100px; 
-border: 1px solid #999999; 
+width: 60px; 
 padding: 5px;
-overflow: scroll;
 }
 .left5{
 	margin-left: 5px;
